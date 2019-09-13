@@ -1,0 +1,122 @@
+*{margin:0;padding: 0; box-sizing: border-box;}
+body{
+    background: rgb(210, 207, 223);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+#main{
+    width: 1000px;
+    margin: 0 auto;
+}
+#head{
+    height: 120px;
+    background: #3798ea;
+    color: #fff;
+}
+#head h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    padding:5px 15px ;
+    margin: 0;
+}
+
+#head h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    padding:0 100px;
+    margin: 0;
+}
+#head h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0;
+}
+#head h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+}
+#menutop{
+    height: 35px;
+    background: #06518f;
+    color: #fff;
+    
+}
+#menutop ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+#menutop ul li a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 7px 21px;
+    font-weight: bold;
+}
+#menutop ul li a:hover{
+    color:red;
+    
+}
+#maincontent{
+    float: right;
+    width: 100%;
+}
+#content{
+    margin-right: 300px;
+    
+}
+#right{
+    float:right;
+    margin-right:0%;
+    width: 300px;
+    margin-top: -21px;
+    text-decoration: none;
+}
+.dinhdang{
+    width: 97%;
+    background: #bedcf5;
+    margin: 10px auto;
+}
+.dinhdang h1{
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 1em;
+    color: #edfd0a;
+    background: #4a7496;
+    text-align: center;
+    
+}
+#noidung{
+
+}
+#right h1{
+    font-size: 2em;
+    padding-left: 10px;
+    position: relative;
+    top: -233px;
+}
+#right ul li{
+    list-style: none;
+    padding-left: 15px;
+    position: relative;
+    top: -233px;
+}
+#menuduoi{
+    clear: both;
+    background: #06518f;
+    color: #fff;
+    text-align: center;
+}
+#menuduoi h1{
+    font-size: 2em;
+    
+}
+    
